@@ -1,0 +1,35 @@
+{
+  "name": "point-in-simplex",
+  "version": "0.0.0",
+  "description": "Checks if a point is contained in a simplex",
+  "main": "pis.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "barycentric": "~0.0.0"
+  },
+  "devDependencies": {
+    "tap": "~0.4.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/point-in-simplex.git"
+  },
+  "keywords": [
+    "point",
+    "simplex",
+    "triangle",
+    "tetrahedra",
+    "containment",
+    "geometry",
+    "math"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "c6a6625474538cd115aca1d8c8ad125b9c9c0091"
+}
